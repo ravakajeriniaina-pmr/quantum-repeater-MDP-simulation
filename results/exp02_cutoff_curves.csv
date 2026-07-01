@@ -1,0 +1,361 @@
+label,cutoff,skr
+"A: Fast gen, short memory",1,0.09838852019129848
+"A: Fast gen, short memory",2,0.10619185692618115
+"A: Fast gen, short memory",3,0.10512518341243435
+"A: Fast gen, short memory",4,0.10207356565197605
+"A: Fast gen, short memory",5,0.09896852303925602
+"A: Fast gen, short memory",6,0.09671206653690129
+"A: Fast gen, short memory",7,0.09510716258177329
+"A: Fast gen, short memory",8,0.09398755802327759
+"A: Fast gen, short memory",9,0.0933225706009332
+"A: Fast gen, short memory",10,0.09300781540531222
+"A: Fast gen, short memory",11,0.0926439026963722
+"A: Fast gen, short memory",12,0.09245575115271436
+"A: Fast gen, short memory",13,0.09232022247058205
+"A: Fast gen, short memory",14,0.09213736657860475
+"A: Fast gen, short memory",15,0.09207334588935491
+"A: Fast gen, short memory",16,0.09201456372771508
+"A: Fast gen, short memory",17,0.09195930457833253
+"A: Fast gen, short memory",18,0.09193561439095001
+"A: Fast gen, short memory",19,0.09191795314162984
+"A: Fast gen, short memory",20,0.09188793979729358
+"A: Fast gen, short memory",21,0.09187143268255982
+"A: Fast gen, short memory",22,0.09187480710648054
+"A: Fast gen, short memory",23,0.09186428873668817
+"A: Fast gen, short memory",24,0.09185828798239862
+"A: Fast gen, short memory",25,0.09186832046651335
+"A: Fast gen, short memory",26,0.09186226247973091
+"A: Fast gen, short memory",27,0.09185911641203992
+"A: Fast gen, short memory",28,0.09185868764575156
+"A: Fast gen, short memory",29,0.0918603226425135
+"A: Fast gen, short memory",30,0.0918581034218808
+"A: Fast gen, short memory",31,0.09186540023432668
+"A: Fast gen, short memory",32,0.0918637216779524
+"A: Fast gen, short memory",33,0.0918650107084203
+"A: Fast gen, short memory",34,0.09186333216081502
+"A: Fast gen, short memory",35,0.0918614165953493
+"A: Fast gen, short memory",36,0.09186074409250371
+"A: Fast gen, short memory",37,0.09186271115777413
+"A: Fast gen, short memory",38,0.09186271115777413
+"A: Fast gen, short memory",39,0.09186271115777413
+"A: Fast gen, short memory",40,0.09186271115777413
+"A: Fast gen, short memory",41,0.09186271115777413
+"A: Fast gen, short memory",42,0.09186271115777413
+"A: Fast gen, short memory",43,0.09186271115777413
+"A: Fast gen, short memory",44,0.09186271115777413
+"A: Fast gen, short memory",45,0.09186271115777413
+"A: Fast gen, short memory",46,0.09186271115777413
+"A: Fast gen, short memory",47,0.09186271115777413
+"A: Fast gen, short memory",48,0.09186271115777413
+"A: Fast gen, short memory",49,0.09186271115777413
+"A: Fast gen, short memory",50,0.09186271115777413
+"A: Fast gen, short memory",51,0.09186271115777413
+"A: Fast gen, short memory",52,0.09186271115777413
+"A: Fast gen, short memory",53,0.09186271115777413
+"A: Fast gen, short memory",54,0.09186271115777413
+"A: Fast gen, short memory",55,0.09186271115777413
+"A: Fast gen, short memory",56,0.09186271115777413
+"A: Fast gen, short memory",57,0.09186271115777413
+"A: Fast gen, short memory",58,0.09186271115777413
+"A: Fast gen, short memory",59,0.09186271115777413
+"A: Fast gen, short memory",60,0.09186271115777413
+"B: Moderate gen, moderate memory",1,0.018901005294822224
+"B: Moderate gen, moderate memory",2,0.02459116031840707
+"B: Moderate gen, moderate memory",3,0.02775755498047523
+"B: Moderate gen, moderate memory",4,0.029467890630366502
+"B: Moderate gen, moderate memory",5,0.030172485381550346
+"B: Moderate gen, moderate memory",6,0.030447282965117617
+"B: Moderate gen, moderate memory",7,0.030254923793825623
+"B: Moderate gen, moderate memory",8,0.0299620471681454
+"B: Moderate gen, moderate memory",9,0.02952358151619954
+"B: Moderate gen, moderate memory",10,0.02899082852143389
+"B: Moderate gen, moderate memory",11,0.028376296633899293
+"B: Moderate gen, moderate memory",12,0.02778617066532771
+"B: Moderate gen, moderate memory",13,0.027206611257415147
+"B: Moderate gen, moderate memory",14,0.02672546674482627
+"B: Moderate gen, moderate memory",15,0.026308523570992594
+"B: Moderate gen, moderate memory",16,0.02589929872924015
+"B: Moderate gen, moderate memory",17,0.02556124281934288
+"B: Moderate gen, moderate memory",18,0.025272304812808732
+"B: Moderate gen, moderate memory",19,0.025059103645302495
+"B: Moderate gen, moderate memory",20,0.02487038265630982
+"B: Moderate gen, moderate memory",21,0.024660805647197366
+"B: Moderate gen, moderate memory",22,0.024505239196638287
+"B: Moderate gen, moderate memory",23,0.02436237157928014
+"B: Moderate gen, moderate memory",24,0.024218758785880444
+"B: Moderate gen, moderate memory",25,0.02409056077606705
+"B: Moderate gen, moderate memory",26,0.023974608199477186
+"B: Moderate gen, moderate memory",27,0.023854590711324303
+"B: Moderate gen, moderate memory",28,0.023776473568049693
+"B: Moderate gen, moderate memory",29,0.023690223340530166
+"B: Moderate gen, moderate memory",30,0.023597765732052658
+"B: Moderate gen, moderate memory",31,0.02352588403465578
+"B: Moderate gen, moderate memory",32,0.02347804566502035
+"B: Moderate gen, moderate memory",33,0.023431237273614302
+"B: Moderate gen, moderate memory",34,0.02338983732881945
+"B: Moderate gen, moderate memory",35,0.02336235578238846
+"B: Moderate gen, moderate memory",36,0.023301961264768845
+"B: Moderate gen, moderate memory",37,0.02327374323307857
+"B: Moderate gen, moderate memory",38,0.023240995696822194
+"B: Moderate gen, moderate memory",39,0.023221640151863766
+"B: Moderate gen, moderate memory",40,0.023227598549217614
+"B: Moderate gen, moderate memory",41,0.02321072575834958
+"B: Moderate gen, moderate memory",42,0.023193013808935382
+"B: Moderate gen, moderate memory",43,0.02316732510950138
+"B: Moderate gen, moderate memory",44,0.02314686887044623
+"B: Moderate gen, moderate memory",45,0.02313466045835649
+"B: Moderate gen, moderate memory",46,0.023119092478453004
+"B: Moderate gen, moderate memory",47,0.023106595853344594
+"B: Moderate gen, moderate memory",48,0.023114411245846983
+"B: Moderate gen, moderate memory",49,0.023106447526657217
+"B: Moderate gen, moderate memory",50,0.023094092813288163
+"B: Moderate gen, moderate memory",51,0.023082530199354644
+"B: Moderate gen, moderate memory",52,0.023061440218645538
+"B: Moderate gen, moderate memory",53,0.023065572662045952
+"B: Moderate gen, moderate memory",54,0.023052415694897084
+"B: Moderate gen, moderate memory",55,0.02305397413931095
+"B: Moderate gen, moderate memory",56,0.023061680495088447
+"B: Moderate gen, moderate memory",57,0.023057892076169418
+"B: Moderate gen, moderate memory",58,0.023048526367922463
+"B: Moderate gen, moderate memory",59,0.02305157182484222
+"B: Moderate gen, moderate memory",60,0.023060352731520847
+"C: Slow gen, long memory",1,0.006010828522204355
+"C: Slow gen, long memory",2,0.008825337820376563
+"C: Slow gen, long memory",3,0.011034727147772807
+"C: Slow gen, long memory",4,0.012817551901836092
+"C: Slow gen, long memory",5,0.014174265308828584
+"C: Slow gen, long memory",6,0.015240370101013064
+"C: Slow gen, long memory",7,0.016135442374646
+"C: Slow gen, long memory",8,0.01686763963575603
+"C: Slow gen, long memory",9,0.017434149545768753
+"C: Slow gen, long memory",10,0.01790659484047887
+"C: Slow gen, long memory",11,0.018319643379252255
+"C: Slow gen, long memory",12,0.018591839515432904
+"C: Slow gen, long memory",13,0.018822566152617244
+"C: Slow gen, long memory",14,0.019004614790024583
+"C: Slow gen, long memory",15,0.01916445113396783
+"C: Slow gen, long memory",16,0.019259410365642254
+"C: Slow gen, long memory",17,0.019339820914637915
+"C: Slow gen, long memory",18,0.01938779899845743
+"C: Slow gen, long memory",19,0.01940268199761652
+"C: Slow gen, long memory",20,0.01940001141154465
+"C: Slow gen, long memory",21,0.019384013194042045
+"C: Slow gen, long memory",22,0.019372935313874764
+"C: Slow gen, long memory",23,0.0193488366767673
+"C: Slow gen, long memory",24,0.019317378013304604
+"C: Slow gen, long memory",25,0.019278452980461266
+"C: Slow gen, long memory",26,0.019226787450789377
+"C: Slow gen, long memory",27,0.019188480450276726
+"C: Slow gen, long memory",28,0.019129260018066925
+"C: Slow gen, long memory",29,0.01905799394908067
+"C: Slow gen, long memory",30,0.01901026309080966
+"C: Slow gen, long memory",31,0.0189360167771154
+"C: Slow gen, long memory",32,0.01887807558979481
+"C: Slow gen, long memory",33,0.01880997113892144
+"C: Slow gen, long memory",34,0.01872694506135664
+"C: Slow gen, long memory",35,0.018670827420075604
+"C: Slow gen, long memory",36,0.018616282803968723
+"C: Slow gen, long memory",37,0.018545632745063115
+"C: Slow gen, long memory",38,0.018477902921968777
+"C: Slow gen, long memory",39,0.01841569748283109
+"C: Slow gen, long memory",40,0.018357116988211793
+"C: Slow gen, long memory",41,0.0182972929017509
+"C: Slow gen, long memory",42,0.018241132495891942
+"C: Slow gen, long memory",43,0.018172422704233613
+"C: Slow gen, long memory",44,0.018119151659417243
+"C: Slow gen, long memory",45,0.018041681417086453
+"C: Slow gen, long memory",46,0.017991722404245132
+"C: Slow gen, long memory",47,0.01792882786661845
+"C: Slow gen, long memory",48,0.017889738134221372
+"C: Slow gen, long memory",49,0.01784507655522054
+"C: Slow gen, long memory",50,0.017808654815498603
+"C: Slow gen, long memory",51,0.017765206303398885
+"C: Slow gen, long memory",52,0.01771815760761222
+"C: Slow gen, long memory",53,0.017687778571650173
+"C: Slow gen, long memory",54,0.0176559144862588
+"C: Slow gen, long memory",55,0.017626545477605494
+"C: Slow gen, long memory",56,0.017588858707084133
+"C: Slow gen, long memory",57,0.017554277794148823
+"C: Slow gen, long memory",58,0.01752976228083191
+"C: Slow gen, long memory",59,0.017492250742041027
+"C: Slow gen, long memory",60,0.017470897379105774
+D: Imperfect source (w0=0.95),1,0.01249273485562552
+D: Imperfect source (w0=0.95),2,0.017005336167457523
+D: Imperfect source (w0=0.95),3,0.01990331922791284
+D: Imperfect source (w0=0.95),4,0.021810926044068233
+D: Imperfect source (w0=0.95),5,0.022973399079055615
+D: Imperfect source (w0=0.95),6,0.02377564479475672
+D: Imperfect source (w0=0.95),7,0.024193856960646642
+D: Imperfect source (w0=0.95),8,0.024466758484943306
+D: Imperfect source (w0=0.95),9,0.024574858609161157
+D: Imperfect source (w0=0.95),10,0.024553727349401436
+D: Imperfect source (w0=0.95),11,0.024436092641851547
+D: Imperfect source (w0=0.95),12,0.024283225256622
+D: Imperfect source (w0=0.95),13,0.02408274473832351
+D: Imperfect source (w0=0.95),14,0.02388934733317159
+D: Imperfect source (w0=0.95),15,0.02368452281637805
+D: Imperfect source (w0=0.95),16,0.023446376341182233
+D: Imperfect source (w0=0.95),17,0.023222455887543063
+D: Imperfect source (w0=0.95),18,0.023002895339861044
+D: Imperfect source (w0=0.95),19,0.02282153616328236
+D: Imperfect source (w0=0.95),20,0.022650469268184828
+D: Imperfect source (w0=0.95),21,0.022462962777901937
+D: Imperfect source (w0=0.95),22,0.02231632370916208
+D: Imperfect source (w0=0.95),23,0.02217644300477726
+D: Imperfect source (w0=0.95),24,0.02204965586056928
+D: Imperfect source (w0=0.95),25,0.021931740203750175
+D: Imperfect source (w0=0.95),26,0.02183635666637115
+D: Imperfect source (w0=0.95),27,0.02172443255972532
+D: Imperfect source (w0=0.95),28,0.02165376967860658
+D: Imperfect source (w0=0.95),29,0.021575161591486404
+D: Imperfect source (w0=0.95),30,0.021497247909391136
+D: Imperfect source (w0=0.95),31,0.021438637528146464
+D: Imperfect source (w0=0.95),32,0.021389211352374912
+D: Imperfect source (w0=0.95),33,0.02134833061875643
+D: Imperfect source (w0=0.95),34,0.02130896049369689
+D: Imperfect source (w0=0.95),35,0.021277079827137158
+D: Imperfect source (w0=0.95),36,0.021229940005057065
+D: Imperfect source (w0=0.95),37,0.021202650741855445
+D: Imperfect source (w0=0.95),38,0.021170714214756216
+D: Imperfect source (w0=0.95),39,0.021150903391108207
+D: Imperfect source (w0=0.95),40,0.021148059791093132
+D: Imperfect source (w0=0.95),41,0.02113058820385373
+D: Imperfect source (w0=0.95),42,0.021112730424594734
+D: Imperfect source (w0=0.95),43,0.02109121212566156
+D: Imperfect source (w0=0.95),44,0.02107584409731776
+D: Imperfect source (w0=0.95),45,0.02106516799866091
+D: Imperfect source (w0=0.95),46,0.021053472282844106
+D: Imperfect source (w0=0.95),47,0.021042664092592915
+D: Imperfect source (w0=0.95),48,0.0210442656091022
+D: Imperfect source (w0=0.95),49,0.02103684714499711
+D: Imperfect source (w0=0.95),50,0.021028728850252542
+D: Imperfect source (w0=0.95),51,0.02101566059214282
+D: Imperfect source (w0=0.95),52,0.02099995906346392
+D: Imperfect source (w0=0.95),53,0.020999542410980135
+D: Imperfect source (w0=0.95),54,0.020988690201944868
+D: Imperfect source (w0=0.95),55,0.020988594171509646
+D: Imperfect source (w0=0.95),56,0.02099244280458465
+D: Imperfect source (w0=0.95),57,0.020988639291888704
+D: Imperfect source (w0=0.95),58,0.020982178421910996
+D: Imperfect source (w0=0.95),59,0.020984198780493565
+D: Imperfect source (w0=0.95),60,0.020990207373751776
+E: Short memory stress test,1,0.01616687729942366
+E: Short memory stress test,2,0.01892503853073243
+E: Short memory stress test,3,0.019444358340210053
+E: Short memory stress test,4,0.018868881669158365
+E: Short memory stress test,5,0.0177153451251372
+E: Short memory stress test,6,0.016837570681757445
+E: Short memory stress test,7,0.0160278420745983
+E: Short memory stress test,8,0.015448369707690465
+E: Short memory stress test,9,0.014952414548256259
+E: Short memory stress test,10,0.014521172856787458
+E: Short memory stress test,11,0.01412503257464479
+E: Short memory stress test,12,0.013809830984345054
+E: Short memory stress test,13,0.013527791606357134
+E: Short memory stress test,14,0.013301637254499213
+E: Short memory stress test,15,0.013090900756234852
+E: Short memory stress test,16,0.012876772574039831
+E: Short memory stress test,17,0.012729095144489297
+E: Short memory stress test,18,0.01259021478109684
+E: Short memory stress test,19,0.01249980667318326
+E: Short memory stress test,20,0.012418069376672931
+E: Short memory stress test,21,0.012322656143372015
+E: Short memory stress test,22,0.012242243953882929
+E: Short memory stress test,23,0.012188043153699205
+E: Short memory stress test,24,0.012103431658434088
+E: Short memory stress test,25,0.012052843001806573
+E: Short memory stress test,26,0.011973175675497438
+E: Short memory stress test,27,0.011924474003817784
+E: Short memory stress test,28,0.011887144432324944
+E: Short memory stress test,29,0.011845738710047897
+E: Short memory stress test,30,0.011795850640981367
+E: Short memory stress test,31,0.011749868880638465
+E: Short memory stress test,32,0.011727285485602477
+E: Short memory stress test,33,0.011694329392582258
+E: Short memory stress test,34,0.011672452834488619
+E: Short memory stress test,35,0.011660187637551035
+E: Short memory stress test,36,0.011619031343929281
+E: Short memory stress test,37,0.011610479294841523
+E: Short memory stress test,38,0.011595945329434408
+E: Short memory stress test,39,0.01158629718670952
+E: Short memory stress test,40,0.011603095743582955
+E: Short memory stress test,41,0.011594528538020309
+E: Short memory stress test,42,0.011587712784226356
+E: Short memory stress test,43,0.011574384261132036
+E: Short memory stress test,44,0.011560259238802358
+E: Short memory stress test,45,0.011554129031208678
+E: Short memory stress test,46,0.011544101106015961
+E: Short memory stress test,47,0.011536687346986634
+E: Short memory stress test,48,0.011546617697654485
+E: Short memory stress test,49,0.011541142771047194
+E: Short memory stress test,50,0.01153053836463109
+E: Short memory stress test,51,0.011528854202589452
+E: Short memory stress test,52,0.011514283105113042
+E: Short memory stress test,53,0.011522482341254175
+E: Short memory stress test,54,0.011514662588719735
+E: Short memory stress test,55,0.011516483173514789
+E: Short memory stress test,56,0.011524074105888403
+E: Short memory stress test,57,0.011521297590948817
+E: Short memory stress test,58,0.01151416302399328
+E: Short memory stress test,59,0.01151534355118135
+E: Short memory stress test,60,0.011522656233328621
+F: Near-ideal reference,1,0.12791431227140446
+F: Near-ideal reference,2,0.15887892342642299
+F: Near-ideal reference,3,0.17459338654384216
+F: Near-ideal reference,4,0.18383936211966287
+F: Near-ideal reference,5,0.18941999652595445
+F: Near-ideal reference,6,0.19286873630671628
+F: Near-ideal reference,7,0.19482040821101546
+F: Near-ideal reference,8,0.19610259676703304
+F: Near-ideal reference,9,0.1970280832446723
+F: Near-ideal reference,10,0.19770519748946902
+F: Near-ideal reference,11,0.19799376487440665
+F: Near-ideal reference,12,0.1982881538321082
+F: Near-ideal reference,13,0.19852150042638558
+F: Near-ideal reference,14,0.19858450219036816
+F: Near-ideal reference,15,0.19868218561939996
+F: Near-ideal reference,16,0.19870904796701738
+F: Near-ideal reference,17,0.19873387781846233
+F: Near-ideal reference,18,0.19876427053116996
+F: Near-ideal reference,19,0.1987751986539821
+F: Near-ideal reference,20,0.19877656483245407
+F: Near-ideal reference,21,0.19877549258993515
+F: Near-ideal reference,22,0.19879100283356507
+F: Near-ideal reference,23,0.19877734638812672
+F: Near-ideal reference,24,0.1987734667213397
+F: Near-ideal reference,25,0.19878533114160374
+F: Near-ideal reference,26,0.1987800718045904
+F: Near-ideal reference,27,0.19877841910526312
+F: Near-ideal reference,28,0.19878057517474257
+F: Near-ideal reference,29,0.19878072991354592
+F: Near-ideal reference,30,0.1987793109246206
+F: Near-ideal reference,31,0.19878755167214096
+F: Near-ideal reference,32,0.19878659857571354
+F: Near-ideal reference,33,0.19878670877698082
+F: Near-ideal reference,34,0.1987857556881687
+F: Near-ideal reference,35,0.19878477151874235
+F: Near-ideal reference,36,0.1987843009475347
+F: Near-ideal reference,37,0.1987865431475571
+F: Near-ideal reference,38,0.1987865431475571
+F: Near-ideal reference,39,0.1987865431475571
+F: Near-ideal reference,40,0.1987865431475571
+F: Near-ideal reference,41,0.1987865431475571
+F: Near-ideal reference,42,0.1987865431475571
+F: Near-ideal reference,43,0.1987865431475571
+F: Near-ideal reference,44,0.1987865431475571
+F: Near-ideal reference,45,0.1987865431475571
+F: Near-ideal reference,46,0.1987865431475571
+F: Near-ideal reference,47,0.1987865431475571
+F: Near-ideal reference,48,0.1987865431475571
+F: Near-ideal reference,49,0.1987865431475571
+F: Near-ideal reference,50,0.1987865431475571
+F: Near-ideal reference,51,0.1987865431475571
+F: Near-ideal reference,52,0.1987865431475571
+F: Near-ideal reference,53,0.1987865431475571
+F: Near-ideal reference,54,0.1987865431475571
+F: Near-ideal reference,55,0.1987865431475571
+F: Near-ideal reference,56,0.1987865431475571
+F: Near-ideal reference,57,0.1987865431475571
+F: Near-ideal reference,58,0.1987865431475571
+F: Near-ideal reference,59,0.1987865431475571
+F: Near-ideal reference,60,0.1987865431475571

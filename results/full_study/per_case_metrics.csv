@@ -1,0 +1,16 @@
+label,strategy,p50_delivery,p90_delivery,p99_delivery
+BoxiLi-base,no_cutoff,22.0,63.0,121.0
+BoxiLi-base,fixed,22.0,64.0,124.0
+BoxiLi-base,adaptive,22.0,63.0,122.0
+short-memory,no_cutoff,22.0,63.0,121.0
+short-memory,fixed,25.0,77.0,152.0
+short-memory,adaptive,25.0,77.0,152.0
+fast-gen,no_cutoff,7.0,20.0,38.0
+fast-gen,fixed,7.0,20.0,38.0
+fast-gen,adaptive,7.0,20.0,38.0
+slow-gen,no_cutoff,44.0,128.0,248.0
+slow-gen,fixed,44.0,130.0,256.00999999999476
+slow-gen,adaptive,44.0,132.0,259.0
+imperfect-src,no_cutoff,22.0,63.0,121.0
+imperfect-src,fixed,22.0,64.0,124.0
+imperfect-src,adaptive,22.0,63.0,122.0

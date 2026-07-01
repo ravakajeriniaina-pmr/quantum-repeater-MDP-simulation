@@ -1,0 +1,85 @@
+Liste des Corrections à Apporter
+
+Correction 1 — rewards.py : Formule de swap (CRITIQUE)
+Fonction à modifier : swap_werner
+Problème : utilise -(age_1 + age_2) au lieu de -2 * max(age_1, age_2)
+Changement :
+# Avant
+w_out = w0² * exp(-(age_1 + age_2) / t_coh)
+
+# Après
+w_out = w0² * exp(-2 * max(age_1, age_2) / t_coh)
+
+Correction 2 — transitions.py : Intégrer p_swap (CRITIQUE)
+Fonction à modifier : transition et transition_compact
+Problème : l'action SWAP est traitée comme terminale sans probabilité d'échec. Quand le swap échoue (prob 1 - p_swap), les deux liens sont consommés et le système repart de (0,0,0,0).
+Changement : ajouter p_swap comme paramètre, et pour l'action SWAP retourner deux successeurs possibles :
+succès   (prob p_swap)     → état terminal (épisode terminé)
+échec    (prob 1-p_swap)   → (0, 0, 0, 0) avec WAIT dynamics
+
+Correction 3 — rewards.py : Récompense en cas d'échec du swap (CRITIQUE)
+Fonction à modifier : reward et reward_from_state
+Problème : la récompense suppose que le swap réussit toujours. Avec p_swap < 1, la récompense espérée est p_swap * secret_fraction(w_out).
+Changement :
+# Avant
+R(SWAP) = secret_fraction(w_out)
+
+# Après
+R(SWAP) = p_swap * secret_fraction(w_out)
+
+Correction 4 — value_iteration.py : Intégrer p_swap dans le solveur (CRITIQUE)
+Fonction à modifier : solve_mdp
+Problème : le précalcul des transitions pour SWAP suppose un retour déterministe à (0,0,0,0). Avec p_swap, le successeur après SWAP est une mixture :
+p_swap     → restart depuis (0,0,0,0) avec WAIT
+1-p_swap   → restart depuis (0,0,0,0) avec WAIT (swap échoué, même résultat)
+Note importante : dans les deux cas (succès ou échec), les deux liens sont consommés et le système repart de (0,0,0,0). La différence est uniquement dans la récompense. Donc la transition reste (0,0,0,0) mais la récompense change.
+Changement : passer p_swap en paramètre de solve_mdp et l'utiliser dans le calcul de la récompense.
+
+Correction 5 — mc_engine.py : Intégrer p_swap dans la simulation (CRITIQUE)
+Fonction à modifier : run_episode
+Problème : quand l'action est SWAP, le résultat est toujours un succès. Il faut tirer aléatoirement selon p_swap.
+Changement :
+# Avant
+if action == SWAP:
+    w_out = swap_werner(a1, a2, w0, t_coh)
+    return t, w_out
+
+# Après
+if action == SWAP:
+    if rng.random() < p_swap:
+        w_out = swap_werner(a1, a2, w0, t_coh)
+        return t, w_out
+    else:
+        # Swap échoué : liens consommés, redémarrage
+        s1, a1, s2, a2 = 0, 0, 0, 0
+        continue
+Signatures à modifier : run_episode, run_simulation, compare_strategies — ajouter p_swap comme paramètre.
+
+Correction 6 — mc_engine.py : Timing du SWAP (MOYEN)
+Fonction à modifier : run_episode
+Problème : les liens vieillissent d'un pas avant que la politique décide. Au moment du SWAP, les âges ont déjà été incrémentés. Le Werner calculé inclut un pas de décoherence de trop.
+Changement : observer l'état avant le vieillissement, puis vieillir seulement si l'action n'est pas SWAP :
+# Ordre correct :
+# 1. Observer état courant → choisir action
+# 2. Si SWAP → calculer récompense sur âges courants, terminer
+# 3. Sinon → appliquer WAIT/CUTOFF dynamics (vieillissement + génération)
+
+Correction 7 — config.py : Ajouter p_swap (MINEUR)
+Fonction à modifier : RepeaterConfig
+Problème : p_swap est déjà défini dans la dataclass, mais n'est pas propagé aux appels de solve_mdp, run_simulation, etc.
+Changement : vérifier que p_swap est bien passé à toutes les fonctions qui en ont besoin, et ajouter p_swap dans to_boxili_params.
+
+Correction 8 — swapping.py : Cohérence avec rewards.py (MINEUR)
+Fonction à modifier : Aucune modification de code — mais ajouter une note explicite dans le docstring de swap_werner_from_ages indiquant que c'est cette formule (MAX) qui doit être utilisée partout, et que rewards.py a été aligné en conséquence.
+
+Correction 9 — Éliminer la duplication de _secret_fraction (MINEUR)
+Fichiers concernés : rewards.py, skr.py
+Problème : _binary_entropy_nat et _secret_fraction sont définies en double dans ces deux fichiers alors qu'elles existent déjà dans werner_utils.py.
+Changement : dans rewards.py et skr.py, remplacer les définitions locales par des imports depuis werner_utils.py :
+pythonfrom werner_utils import secret_fraction_nat as _secret_fraction
+from werner_utils import binary_entropy_nat as _binary_entropy_nat
+
+Récapitulatif
+#FichierFonction(s)Priorité1rewards.pyswap_werner🔴 Critique2transitions.pytransition, transition_compact🔴 Critique3rewards.pyreward, reward_from_state🔴 Critique4value_iteration.pysolve_mdp🔴 Critique5mc_engine.pyrun_episode, run_simulation, compare_strategies🔴 Critique6mc_engine.pyrun_episode🟠 Moyen7config.pyRepeaterConfig, propagation🟡 Mineur8swapping.pydocstring uniquement🟡 Mineur9rewards.py, skr.pyimports🟡 Mineur
+
+Confirmez que cette liste est claire, et j'écris tous les codes corrigés et les tests de vérification associés.
